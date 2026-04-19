@@ -10,6 +10,7 @@ DataService:init({
 		exp = 0,
 		maxExp = 100,
 		class = "None",
+		classTokens = 0, --should be (level - 1) when reset
 
 		classes = {
 			{ name = "None", level = 1 },
